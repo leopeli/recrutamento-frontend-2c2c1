@@ -1,42 +1,68 @@
-# Recrutamento 7COMm (frontend-2C2C1)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-O `recrutamento-frontend-2c2c1` é um teste aplicado pela [7COMm Serviços e Soluções em TI](https://7comm.com.br) para recrutamento de profissionais `frontend`.
+## Available Scripts
 
-## Como funciona a avaliação
+In the project directory, you can run:
 
-O candidato deve fazer um `fork` deste repositório e implementar as funcionalidades solicitadas conforme julgar adequado. A entrega será feita através do repoistório do candidato, que deverá ser informado por email quando concluída a implementação.
+### `npm start`
 
-## Como será a avaliação
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-O nível de exigência na avaliação vai variar conforme a senioridade e a oportunidade disponível. O objetivo deste teste é avaliar, primariamente, os seguintes aspectos:
+The page will reload if you make edits.<br>
+You will also see any lint errors in the console.
 
-- Uso do `git`, analizando o histórico de commits;
-- Aderência a boas prátias e convenções, tanto de arquitetura quanto codificação e nomeação de artefatos;
-- Legibilidade do código e nível de complexidade adotada;
-- Entre outros.
+### `npm test`
 
-Consideradas essas questões, o time técnico da [7COMm Serviços e Soluções em TI](https://7comm.com.br) irá avaliar a implementação entregue pelo candidato e entrará em contato para agradecer a particiapação ou para marcar uma entrevista técnica.
+Launches the test runner in the interactive watch mode.<br>
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## O que implementar
+### `npm run build`
 
-Desenvolver uma aplicação `SPA` responsiva para busca, listagem e detalhamento de clãs do [`Clash Royale`](https://clashroyale.com/). Este detalhamento deve exibir:
+Builds the app for production to the `build` folder.<br>
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- Nome do clã;
-- Descrição;
-- Imagem; e
-- Lista de membros.
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
 
-### Pré-requisitos
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-- Utilizar framework [`JavaScript`](https://www.javascript.com/);
-- Utilizar [`SASS`](https://sass-lang.com/), [`LESS`](http://lesscss.org/) ou similar; e
-- Utilizar [`Bootstrap`](http://getbootstrap.com/) ou, preferencialmente, [`Foundation`](https://foundation.zurb.com/).
+### `npm run eject`
 
-## API Clash Royale
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- Documentação: [`https://docs.royaleapi.com/`](https://docs.royaleapi.com/);
-- Token: `Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTc2MywiaWRlbiI6IjQ5NTYwMzg4Njc0NTE5MDQzMiIsIm1kIjp7fSwidHMiOjE1MzgyMzMxMjAxMzl9.Gf5Sz8rWWf8wcesDsTum-iKaGOK-w38zByqZaIeo3Bk`;
-- Endpoint para busca de clãs: [`https://api.royaleapi.com/clan/search?name={{clanName}}`](https://api.royaleapi.com/clan/search?name={{clanName}});
-- Endpoint para detalhamento do clã: [`https://api.royaleapi.com/clan/{{clanTag}}`](https://api.royaleapi.com/clan/{{clanTag}}).
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-O canal indicado para dúvidas é criar uma [`issue`](https://github.com/7comminformatica/recrutamento-frontend-2c2c1/issues) e entrar em contato com a empresa para informar sobre as dúvidas, afim de manter uma base de conhecimento centralizada neste repositório, onde dúvidas anteriores poderão ser pesquisadas e agilizar a resposta ao entrar em contato com a empresa.
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
